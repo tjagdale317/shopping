@@ -1,0 +1,21 @@
+create branch in git
+
+git checkout -b feature/HCL-1111
+
+git commit -m "jira-ticket-number: hjjh"
+
+
+Condition 1: master branch have some changes and but not in your feature branch
+
+git checkout master
+
+git branch
+
+git pull
+
+git checkout feature/HCL-1111
+
+git merge master
+
+
+Condition2: conflict then follow same as above cmd
