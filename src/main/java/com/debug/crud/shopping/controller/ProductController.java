@@ -56,7 +56,9 @@ public class ProductController {
 		Optional<ProductEntity> findById = productRepository.findById(id);
 		if (findById.isPresent()) {
 			productRepository.delete(findById.get());
+			getProduct();
 			return "Successfully delete the product with Id: {}";
+		
 		} else {
 			LOGGER.info("product not found with given product Id "+ id);
 			return "Product Not Available with given Product Id: {}";
