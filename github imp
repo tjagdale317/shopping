@@ -1,0 +1,40 @@
+# test git
+
+Steps: 
+1: first create project
+
+2: git hub and create repository or get repository url
+
+3: go to the project folder and open gitbash cmd
+
+4: git command:
+
+git init
+
+git status
+
+git add .
+
+git branch
+
+git commit -m "first commit"
+
+git remote add origin github.com/teju/project-repo.git
+
+git push origin master
+
+5: go the eclipse ide and select project and right click on it go the team and share project
+and finish
+
+
+
+
+
+
+
+
+
+
+
+
+
